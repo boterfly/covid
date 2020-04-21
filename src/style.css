@@ -67,6 +67,7 @@ body {
       /* position: absolute; */
       right: 0;
       top: 0;
+      font-size:36px
     }
     .topnav.responsive a {
       float: none;
