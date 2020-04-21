@@ -97,7 +97,7 @@ body {
 
 .content_flex_box div img {
     padding-top: 10px;
-    /* height: 40%; */
+    padding-left: 5%;
     max-height: 65vh;
     min-height: 30vh;
 } 
