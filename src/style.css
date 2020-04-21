@@ -1,0 +1,144 @@
+body {
+    background-color: #cf171f;
+    width: 100%;
+    font: normal  12px / 24px "Merriweather", Helvetica, Arial, Verdana, sans-serif;
+  }
+
+.header {
+    background-color: #cf171f;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+}
+.head_menu{
+    display: inline-block;
+}
+  .topnav {
+    float: right;
+    overflow: hidden;
+    margin-top: 160px;
+    margin-right: 5px;
+  }
+  
+  .topnav a {
+    color: #f2f2f2;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .topnav a:hover {
+    color: #333333;
+    text-decoration: underline;
+  }
+  
+  .topnav a.active {
+    text-decoration: underline;
+    color: white;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  .logo{
+      float: left;
+    margin-top: 0px;
+    margin-left: 5%;
+    /* margin-bottom: 10px */
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .topnav{
+        margin-top: 80px;
+        float: right;
+        height: 100%;
+    }
+    .topnav a:not(:last-child) {display: none;}
+    .topnav a.icon {
+      /* float: right; */
+      display: inline-block;
+    }
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      background-color: #ffffff;
+      color: black;
+      text-align: center;
+    }
+  }
+
+  .content{
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 200px;
+    background-color: #ffffff;
+    padding-top: 10px;
+  }
+  .content_flex_box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.content_flex_box div{
+    width: 400px;
+}
+
+.content_flex_box div img {
+    padding-top: 10px;
+    /* height: 40%; */
+    max-height: 65vh;
+    min-height: 30vh;
+} 
+/* .img-booklet{
+    padding-top: 10px;
+    height: 40%; 
+}  */
+
+p {
+margin-bottom: 25px;
+font-size: 18px;
+color: grey;
+}
+
+.caring{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.download{
+    border: 1px black;
+    padding: 10px;
+    background-color: #f2f2f2;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+.download li{
+    font-size: 18px;
+    color: grey;
+}
+.who_is_who{
+
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.who_is_who h2{
+    padding-left: 15%;
+}
+.who_is_who_flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
